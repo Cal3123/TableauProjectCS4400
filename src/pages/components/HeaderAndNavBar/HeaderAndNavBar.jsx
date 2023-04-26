@@ -5,7 +5,7 @@ const HeaderAndNavBar = () => {
         <>
 			<div className="md:col-span-1 md:flex md:justify-center"> 
 					<h1 className="font-bold uppercase p-4 border-b border-gray-100">
-					<a href="/" className="hover:text-gray-700">U.S Death Trends and Doctors List</a>
+					<a href="/" className="hover:text-gray-700">U.S. Death Trends and Doctors List</a>
 					</h1>
 			</div>   
             <div className="md:col-span-1 md:flex md:justify-center">
