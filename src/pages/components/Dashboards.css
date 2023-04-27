@@ -1,0 +1,17 @@
+div.dash {
+    margin-top: 20px;
+    margin-left:  200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    align-content: center;
+    text-align: center;
+
+}
+
+h1.description {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    font-weight: normal;
+}
