@@ -28,17 +28,17 @@ const DoctorsList = (props) => {
           id={doctor.id}
           onOpenItem={props.onOpenItem}
         >
-          <label className="block font-bold mb-2 text-gray-900 dark:text-gray-300 pt-2">
+          <label className="block font-bold mb-2 text-gray-900 pt-2">
             Name
           </label>
           <div className="block mb-2 text-sm font-medium text-gray-900">
             {doctor.first_name}{" "}{doctor.last_name}
           </div>
 
-          <label className="block font-bold mb-2 text-gray-900 dark:text-gray-300 pt-2">
+          <label className="block font-bold mb-2 text-gray-900 pt-2">
             Speciality
           </label>
-          <div className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 pt-2">
+          <div className="block mb-2 text-sm font-medium text-gray-900 pt-2">
             {doctor.speciality}
           </div> 
         </DoctorDescription>
