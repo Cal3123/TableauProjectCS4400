@@ -8,7 +8,7 @@ function BasicEmbed() {
     const vizRef = useRef(null);
     
     useEffect(() => {
-        const vizUrl = 'https://public.tableau.com/views/DeathTrends_16825288216850/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link';
+        const vizUrl = 'https://public.tableau.com/shared/HHNP6H9QC?:display_count=n&:origin=viz_share_link';
         const vizOptions = {
           width: '100%',
           height: '1000px',
