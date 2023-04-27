@@ -1,279 +1,383 @@
 export const  Doctors =  [
     {
         "id": 1,
-        "first_name": "Callan",
-        "last_name": "McClune",
-        "speciality": "Physiotherapist",
-        "fees": 18,
-        "ratings": 5,
-        "waiting_time" : 15,
-        "location": "Shoubra El-Kheima : 15 May, St.",
-        "profile_views": "1,707"
+        "first_name": "Ardalan",
+        "last_name": "Enkeshafi",
+        "speciality": "Internal Medicine",
+        "gender": "M",
+        "Med_school": "",
+        "address" : "24440 Stone Springs Blvd",
+        "city": "Dulles",
+        "state": "VA",
+        "zip": "201662247",
+        "phone_number": "1,707"
 
     },
     {
         "id": 2,
-        "first_name": "Julius",
-        "last_name": "Livingston",
-        "speciality": "Dentist",
-        "fees": 200,
-        "ratings": 4.5,
-        "waiting_time" : 20,
-        "location": "El-Sheikh Zayed : Mouez plaza",
-        "profile_views": "2,707"
+        "first_name": "Robert",
+        "last_name": "Swaney",
+        "speciality": "Hematology/Oncology",
+        "gender": "M",
+        "Med_school": "University of Michigan Medical School",
+        "address" : "3699 Epworth Rd",
+        "city": "Newburgh",
+        "state": "IN",
+        "zip": "476308909",
+        "phone_number": "8124711200"
 
     },
     {
         "id": 3,
-        "first_name": "Kayleigh",
-        "last_name": "Pace",
-        "speciality": "Nephrologist",
-        "fees": 100,
-        "ratings": 3.5,
-        "waiting_time" : 12,
-        "location": "Shoubra El-Kheima : 15 May, St.",
-        "profile_views": "707"
+        "first_name": "Manuel",
+        "last_name": "Bloom",
+        "speciality": "Pulmonary Disease",
+        "gender": "M",
+        "Med_school": "Stanford University School of Medicine",
+        "address" : "6550 Fannin",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "770302748",
+        "phone_number": "7137906250"
 
     },
     {
         "id": 4,
-        "first_name": "Nataniel",
-        "last_name": "Moody",
-        "speciality": "Dermatologist",
-        "fees": 50,
-        "ratings": 4.8,
-        "waiting_time" : 10,
-        "location": "El-Sheikh Zayed : Mouez plaza",
-        "profile_views": "1,001"
+        "first_name": "Thomas",
+        "last_name": "Winokur",
+        "speciality": "Pathology",
+        "gender": "M",
+        "Med_school": "Washington University School of Medicine",
+        "address" : "619 19th St S",
+        "city": "Birmingham",
+        "state": "AL",
+        "zip": "352491900",
+        "phone_number": ""
 
     },
     {
         "id": 5,
-        "first_name": "Callan",
-        "last_name": "Smoke",
-        "speciality": "Ophthalmologist",
-        "fees": 6,
-        "ratings": 2.5,
-        "waiting_time" : 60,
-        "location": "Nasr City : Zaker Hussien Street-District 7",
-        "profile_views": "107"
+        "first_name": "Alexander",
+        "last_name": "Henry",
+        "speciality": "Surgical Oncology",
+        "gender": "M",
+        "Med_school": "Georgetown University School of Medicine",
+        "address" : "475 Route 70",
+        "city": "Lakewood",
+        "state": "NJ",
+        "zip": "87015897",
+        "phone_number": "7323648000"
 
     },
     {
         "id": 6,
-        "first_name": "Idris ",
-        "last_name": "Calhoun",
-        "speciality": "Physiotherapist",
-        "fees": 650,
-        "ratings": 5,
-        "waiting_time" : 15,
-        "location": "Shoubra El-Kheima : 15 May, St.",
-        "profile_views": "10"
+        "first_name": "Janice",
+        "last_name": "Christensen",
+        "speciality": "Cardiology",
+        "gender": "F",
+        "Med_school": "University of Arizone College of Medicine",
+        "address" : "825 SE Bishop Blvd",
+        "city": "Pullman",
+        "state": "WA",
+        "zip": "991635517",
+        "phone_number": "5094558820"
 
     },
     {
         "id": 7,
-        "first_name": "Hamza",
-        "last_name": "Newman",
-        "speciality": "Dentist",
-        "fees": 150,
-        "ratings": 3.5,
-        "waiting_time" : 20,
-        "location": "Nasr City : Zaker Hussien Street-District 7",
-        "profile_views": "1,707"
+        "first_name": "Christine",
+        "last_name": "Gerges",
+        "speciality": "Internal Medicine",
+        "gender": "F",
+        "Med_school": "NOVA Southeastern College of Medicine",
+        "address" : "100 Madison Ave",
+        "city": "Morristown",
+        "state": "NJ",
+        "zip": "79606136",
+        "phone_number": "9739715596"
 
     },
     {
         "id": 8,
-        "first_name": "Tamzin",
-        "last_name": "Mcgee",
-        "speciality": "Nephrologist",
-        "fees": 40,
-        "ratings": 4.4,
-        "waiting_time" : 13,
-        "location": "Shoubra El-Kheima : 15 May, St.",
-        "profile_views": "1,707"
+        "first_name": "Delphine",
+        "last_name": "Ong",
+        "speciality": "Medical Oncology",
+        "gender": "F",
+        "Med_school": "Other",
+        "address" : "3301 C St",
+        "city": "Sacramento",
+        "state": "CA",
+        "zip": "958163386",
+        "phone_number": "9165563200"
 
     },
     {
         "id": 9,
-        "first_name": "Bushra",
-        "last_name": "Rasmussen",
-        "speciality": "Dermatologist",
-        "fees": 35,
-        "ratings": 3.3,
-        "waiting_time" : 30,
-        "location": "El-Maadi : 77 Street Extension - Arab El Maadi",
-        "profile_views": "70"
+        "first_name": "Karen",
+        "last_name": "Moulton",
+        "speciality": "Cardiology",
+        "gender": "F",
+        "Med_school": "University of Washington School of Medicine",
+        "address" : "9548 Park Meadows Dr",
+        "city": "Lone Tree",
+        "state": "CO",
+        "zip": "801245315",
+        "phone_number": "7208482200"
 
     },
     {
         "id": 10,
-        "first_name": "Maximus",
-        "last_name": "Sanchez",
-        "speciality": "Ophthalmologist",
-        "fees": 77,
-        "ratings": 5,
-        "waiting_time" : 20,
-        "location": "Nasr City : Zaker Hussien Street-District 7",
-        "profile_views": "1,007"
+        "first_name": "Tracy",
+        "last_name": "Entremont",
+        "speciality": "Hematology/Oncology",
+        "gender": "F",
+        "Med_school": "Pennsylvania State University College of Medicine",
+        "address" : "1001 Chesterbrook Blvd 2nd FL W",
+        "city": "Berwyn",
+        "state": "PA",
+        "zip": "193123805",
+        "phone_number": "6105767500"
 
     },
     {
         "id": 11,
-        "first_name": "Sufyan",
-        "last_name": "Hanna",
-        "speciality": "Physiotherapist",
-        "fees": 15,
-        "ratings": 5,
-        "waiting_time" : 15,
-        "location": "El-Maadi : 77 Street Extension - Arab El Maadi",
-        "profile_views": "1,707"
+        "first_name": "Michael",
+        "last_name": "Goldstein",
+        "speciality": "Cardiology",
+        "gender": "M",
+        "Med_school": "University of Vermont College of Medicine",
+        "address" : "331 Highland Ave",
+        "city": "Salem",
+        "state": "MA",
+        "zip": "19707006",
+        "phone_number": "9787443499"
 
     },
     {
         "id": 12,
-        "first_name": "Gideon",
-        "last_name": "Buckley",
-        "speciality": "Dentist",
-        "fees": 45,
-        "ratings": 5,
-        "waiting_time" : 15,
-        "location": "El-Mohandessin : el Sudan Street",
-        "profile_views": "1,700"
+        "first_name": "James",
+        "last_name": "Lukan",
+        "speciality": "Vascular Sugery",
+        "gender": "M",
+        "Med_school": "State University of New York at Stone Brook School of Medicine",
+        "address" : "462 Grider St",
+        "city": "Buffalo",
+        "state": "NY",
+        "zip": "142153021",
+        "phone_number": "7168884895"
 
     },
     {
         "id": 13,
-        "first_name": "Zane",
-        "last_name": "Preston",
-        "speciality": "Nephrologist",
-        "fees": 90,
-        "ratings": 5,
-        "waiting_time" : 15,
-        "location": "El-Mohandessin : el Sudan Street",
-        "profile_views": "3,707"
+        "first_name": "David",
+        "last_name": "Pettit",
+        "speciality": "Emergency Medicine",
+        "gender": "M",
+        "Med_school": "Creighton University School of Medicine",
+        "address" : "2635 N 7th St",
+        "city": "Grand Junction",
+        "state": "CO",
+        "zip": "815018209",
+        "phone_number": "9702442273"
 
     },
     {
         "id": 14,
-        "first_name": "Randy",
-        "last_name": "Hammond",
-        "speciality": "Dermatologist",
-        "fees": 80,
-        "ratings": 5,
-        "waiting_time" : 15,
-        "location": "El-Maadi : 77 Street Extension - Arab El Maadi",
-        "profile_views": "4,707"
+        "first_name": "Peter",
+        "last_name": "Yorgin",
+        "speciality": "Pediatric Medicine",
+        "gender": "M",
+        "Med_school": "Emory University School of Medicine",
+        "address" : "8110 Birmingham Way Bldg",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "921234223",
+        "phone_number": "8589664003"
 
     },
     {
         "id": 15,
-        "first_name": "Alan",
-        "last_name": "Clarke",
-        "speciality": "Ophthalmologist",
-        "fees": 33,
-        "ratings": 4.8,
-        "waiting_time" : 15,
-        "location": "El-Mohandessin : el Sudan Street",
-        "profile_views": "107"
+        "first_name": "Irene",
+        "last_name": "Darocha",
+        "speciality": "Diagnostic Radiology",
+        "gender": "F",
+        "Med_school": "Medical College of Pennsylvania",
+        "address" : "517 Pierce St",
+        "city": "Kingston",
+        "state": "PA",
+        "zip": "187045756",
+        "phone_number": "5707147226"
 
     },
     {
         "id": 16,
-        "first_name": "Lachlan",
-        "last_name": "Barrett",
-        "speciality": "Dentist",
-        "fees": 105,
-        "ratings": 5,
-        "waiting_time" : 15,
-        "location": "Sidy Bishr : Alaman st. from sidi Beshr mosque st.",
-        "profile_views": "1,707"
+        "first_name": "Nan",
+        "last_name": "Wang",
+        "speciality": "Cardiac Surgery",
+        "gender": "M",
+        "Med_school": "Loma Linda School of Medicine",
+        "address" : "4500 Brockton Ave",
+        "city": "Riverside",
+        "state": "CA",
+        "zip": "925014028",
+        "phone_number": "9517883930"
 
     },
     {
         "id": 17,
-        "first_name": "Caitlin",
-        "last_name": "Tate",
-        "speciality": "Physiotherapist",
-        "fees": 22,
-        "ratings": 2,
-        "waiting_time" : 15,
-        "location": "Sidy Bishr : Alaman st. from sidi Beshr mosque st.",
-        "profile_views": "1,707"
+        "first_name": "Shirley",
+        "last_name": "Bembo",
+        "speciality": "Endocrinology",
+        "gender": "F",
+        "Med_school": "Other",
+        "address" : "256 Bunn Dr",
+        "city": "Princeton",
+        "state": "NJ",
+        "zip": "85402859",
+        "phone_number": "6099244433"
 
     },
     {
         "id": 18,
-        "first_name": "Chelsey",
-        "last_name": "Burnett",
-        "speciality": "Dentist",
-        "fees": 64,
-        "ratings": 4.5,
-        "waiting_time" : 15,
-        "location": "Hadayek El-Ahram : Gardenia Street",
-        "profile_views": "15,707"
+        "first_name": "John",
+        "last_name": "Blair",
+        "speciality": "Interventional Cardiology",
+        "gender": "M",
+        "Med_school": "University of Chicago, Pritzker School of Medicine",
+        "address" : "630 S Fleishel Ave",
+        "city": "Tyler",
+        "state": "TX",
+        "zip": "757012041",
+        "phone_number": "9035108888"
 
     },
     {
         "id": 19,
-        "first_name": "Caiden",
-        "last_name": "Harvey",
-        "speciality": "Nephrologist",
-        "fees": 84,
-        "ratings": 5,
-        "waiting_time" : 15,
-        "location": "Sidy Bishr : Alaman st. from sidi Beshr mosque st.",
-        "profile_views": "16,707"
+        "first_name": "Omar",
+        "last_name": "Abdel-Wahab",
+        "speciality": "Medical Oncology",
+        "gender": "M",
+        "Med_school": "Duke University School of Medicine",
+        "address" : "1275 York Ave",
+        "city": "New York",
+        "state": "NY",
+        "zip": "100656007",
+        "phone_number": "2126392000"
 
     },
     {
         "id": 20,
-        "first_name": "Drew",
-        "last_name": "Waller",
-        "speciality": "Dermatologist",
-        "fees": 55,
-        "ratings": 4.8,
-        "waiting_time" : 15,
-        "location": "Hadayek El-Ahram : Gardenia Street",
-        "profile_views": "10"
+        "first_name": "Mark",
+        "last_name": "Wolf",
+        "speciality": "Infectious Disease",
+        "gender": "M",
+        "Med_school": "Wayne State University School of Medicine",
+        "address" : "6071 W Outer Dr",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "482352627",
+        "phone_number": ""
 
     },
     {
         "id": 21,
-        "first_name": "Pauline",
-        "last_name": "Harrell",
-        "speciality": "Dermatologist",
-        "fees": 627,
-        "ratings": 1.5,
-        "waiting_time" : 60,
-        "location": "El-Zagazig : mahmoud hashem street-Kawmya",
-        "profile_views": "9"
+        "first_name": "Bhupinder",
+        "last_name": "Chhabra",
+        "speciality": "Geriatric Medicine",
+        "gender": "F",
+        "Med_school": "Other",
+        "address" : "675 S Roselle Rd",
+        "city": "Schaumburg",
+        "state": "IL",
+        "zip": "601933100",
+        "phone_number": ""
 
     },
     {
         "id": 22,
-        "first_name": "Callan",
-        "last_name": "Harrell",
-        "speciality": "Dentist",
-        "fees": 70,
-        "ratings": 2.3,
-        "waiting_time" : 35,
-        "location": "El-Zagazig : ,  El Obour Bridge extension",
-        "profile_views": "7"
+        "first_name": "Thanh",
+        "last_name": "Nguyen",
+        "speciality": "Radiation Oncology",
+        "gender": "M",
+        "Med_school": "University of Texas Medical Branch at Galveston",
+        "address" : "7848 Gateway Blvd E",
+        "city": "El Paso",
+        "state": "TX",
+        "zip": "799151815",
+        "phone_number": "9155991313"
 
     },
     {
         "id": 23,
-        "first_name": "Drew",
-        "last_name": "McClune",
-        "speciality": "Dermatologist",
-        "fees": 85,
-        "ratings": 5,
-        "waiting_time" : 12,
-        "location": "El-Zagazig : mahmoud hashem street-Kawmya",
-        "profile_views": "107"
+        "first_name": "Karen",
+        "last_name": "Fitzgerald",
+        "speciality": "Diagnostic Radiology",
+        "gender": "F",
+        "Med_school": "Indiana University School of Medicine",
+        "address" : "500 W Votaw St",
+        "city": "Portland",
+        "state": "IN",
+        "zip": "473711322",
+        "phone_number": "2607261821"
 
     },
+    {
+        "id": 24,
+        "first_name": "David",
+        "last_name": "Lim",
+        "speciality": "Cardiology",
+        "gender": "M",
+        "Med_school": "Albert Einstein College of Medicine of Yeshiva University",
+        "address" : "415 E Harding Way",
+        "city": "Stockton",
+        "state": "CA",
+        "zip": "952046118",
+        "phone_number": "2099445750"
 
+    },
+    {
+        "id": 25,
+        "first_name": "Lysa",
+        "last_name": "Ward",
+        "speciality": "Emergency Medicine",
+        "gender": "F",
+        "Med_school": "University of Texas Southwestern Medical School at Dallas",
+        "address" : "14815 Pacific Ave S",
+        "city": "Tacoma",
+        "state": "WA",
+        "zip": "984444654",
+        "phone_number": "2536978660"
+    }
 ]
+
+
+function search_doctors() {
+  // resett result div
+    document.getElementById('result').innerHTML = "";
+
+    // get that input
+    let name_input = document.getElementById('name_input').value;
+    name_input = name_input.toLowerCase();
+    let loc_input = document.getElementById('location_input').value;
+    loc_input = loc_input.toLowerCase();
+    let spec_input = document.getElementById('spec_input').value;
+    spec_input = spec_input.toLowerCase();
+
+
+
+    for (let i = 0; i < Doctors.length; i++) {
+
+      if ((Doctors[i]["first_name"].toLowerCase().includes(name_input) ||
+          Doctors[i]["last_name"].toLowerCase().includes(name_input)) &&
+          Doctors[i]["city"].toLowerCase().includes(loc_input) &&
+          Doctors[i]["speciality"].toLowerCase().includes(spec_input)
+            ) {
+
+              // if search fields met do this ->
+        document.getElementById('result').innerHTML =
+         document.getElementById('result').innerHTML +
+          Doctors[i]["first_name"] + " " + Doctors[i]["last_name"] + " " + Doctors[i]["city"] + " " + Doctors[i]["speciality"] + "<br>";
+      }
+
+    }
+}

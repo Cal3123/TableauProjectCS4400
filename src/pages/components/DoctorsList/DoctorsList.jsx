@@ -1,12 +1,28 @@
-import React from "react";
+import React, { useState} from "react";
 
 import DoctorDescription from "../DoctorDescription/DoctorDescription";
 import "./DoctorsList.css";
 
 const DoctorsList = (props) => {
+  const [query, setQuery] = useState("")
+
   return (
+    <div>
+    <div className="Header">
+    <input placeholder="Search Doctor Info" onChange={event => setQuery(event.target.value)} />
+    </div>
     <ul className="collection">
-      {props.items.map((doctor) => (
+      {props.items.filter(doctor => {
+        if (query === '') {
+          return doctor;
+        } else if (
+          doctor.first_name.toLowerCase().includes(query.toLowerCase()) ||
+          doctor.last_name.toLowerCase().includes(query.toLowerCase()) ||
+          doctor.city.toLowerCase().includes(query.toLowerCase()) ||
+          doctor.speciality.toLowerCase().includes(query.toLowerCase())) {
+          return doctor;
+        }
+      }).map((doctor) => (
         <DoctorDescription
           key={doctor.id}
           id={doctor.id}
@@ -28,6 +44,7 @@ const DoctorsList = (props) => {
         </DoctorDescription>
       ))}
     </ul>
+    </div>
   );
 };
 
