@@ -15,56 +15,35 @@ const DoctorDetailDescription = (props) => {
                 <h3 className="text-3xl font-semibold">Doctor's Detail Description</h3>
                 </div>
                 <div className="relative p-6 flex-auto">
-                    <label className="block font-bold mb-2 text-gray-900 dark:text-gray-300 pt-2">
+                    <label className="block font-bold mb-2 text-gray-900 pt-2">
                     Name
                     </label>
                     <div className="block mb-2 text-sm font-medium text-gray-900">
                     {props.item[0].first_name}{" "}{props.item[0].last_name}
                     </div>
 
-                    <label className="block font-bold mb-2 text-gray-900 dark:text-gray-300 pt-2">
+                    <label className="block font-bold mb-2 text-gray-900  pt-2">
                     Speciality
                     </label>
-                    <div className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 pt-2">
+                    <div className="block mb-2 text-sm font-medium text-gray-900  pt-2">
                     {props.item[0].speciality}
                     </div>
 
-                    <label className="block font-bold mb-2 text-gray-900 dark:text-gray-300 pt-2">
+                    <label className="block font-bold mb-2 text-gray-900  pt-2">
                     Location
                     </label>
-                    <div className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 pt-2">
-                    {props.item[0].location}
+                    <div className="block mb-2 text-sm font-medium text-gray-900  pt-2">
+                    {props.item[0].address}{" "}{props.item[0].city}{", "}{props.item[0].state}
                     </div>
 
-                    <label className="block font-bold mb-2 text-gray-900 dark:text-gray-300 pt-2">
-                    Fees
+                    <label className="block font-bold mb-2 text-gray-900  pt-2">
+                    Phone Number
                     </label>
-                    <div className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 pt-2">
-                    {"$"}{props.item[0].fees}
+                    <div className="block mb-2 text-sm font-medium text-gray-900  pt-2">
+                    {props.item[0].phone_number}
                     </div> 
-
-                    <label className="block font-bold mb-2 text-gray-900 dark:text-gray-300 pt-2">
-                    Ratings
-                    </label>
-                    <div className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 pt-2">
-                    {props.item[0].ratings}
-                    </div> 
-
-                    <label className="block font-bold mb-2 text-gray-900 dark:text-gray-300 pt-2">
-                    Waiting Time
-                    </label>
-                    <div className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 pt-2">
-                    {props.item[0].waiting_time}
-                    </div>
-
-                    <label className="block font-bold mb-2 text-gray-900 dark:text-gray-300 pt-2">
-                    Profile Views
-                    </label>
-                    <div className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 pt-2">
-                    {props.item[0].profile_views}{" "}{"views"}
-                    </div>
                     
-                    <label className="block font-bold mb-2 text-gray-900 dark:text-gray-300 pt-2">
+                    <label className="block font-bold mb-2 text-gray-900  pt-2">
                     Other {" "} {props.item[0].speciality.toLowerCase()}{"s"}{" "} are listed below.{" "}
                     {props.item[0].speciality}{"s"}{" "} are prioritized or listed in order of the smallest fee charged for visit and diagnosis to highest fee charged.
                     </label>
@@ -76,25 +55,18 @@ const DoctorDetailDescription = (props) => {
                             id={doctor.id}
                             onOpenItem={props.onOpenItem}
                             >
-                            <label className="block font-bold mb-2 text-gray-900 dark:text-gray-300 pt-2">
+                            <label className="block font-bold mb-2 text-gray-900  pt-2">
                                 Name
                             </label>
                             <div className="block mb-2 text-sm font-medium text-gray-900">
                                 {doctor.first_name}{" "}{doctor.last_name}
                             </div>
 
-                            <label className="block font-bold mb-2 text-gray-900 dark:text-gray-300 pt-2">
+                            <label className="block font-bold mb-2 text-gray-900  pt-2">
                                 Speciality
                             </label>
-                            <div className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 pt-2">
+                            <div className="block mb-2 text-sm font-medium text-gray-900  pt-2">
                                 {doctor.speciality}
-                            </div> 
-
-                            <label className="block font-bold mb-2 text-gray-900 dark:text-gray-300 pt-2">
-                                Fees
-                            </label>
-                                <div className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 pt-2">
-                                {"$"}{doctor.fees}
                             </div> 
                             </DoctorDescription>
                         ))}

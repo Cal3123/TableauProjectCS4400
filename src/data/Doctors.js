@@ -10,7 +10,7 @@ export const  Doctors =  [
         "city": "Dulles",
         "state": "VA",
         "zip": "201662247",
-        "phone_number": "1,707"
+        "phone_number": "5407764000"
 
     },
     {
@@ -52,7 +52,7 @@ export const  Doctors =  [
         "city": "Birmingham",
         "state": "AL",
         "zip": "352491900",
-        "phone_number": ""
+        "phone_number": "8008228816"
 
     },
     {
@@ -276,7 +276,7 @@ export const  Doctors =  [
         "city": "Detroit",
         "state": "MI",
         "zip": "482352627",
-        "phone_number": ""
+        "phone_number": "3137453000"
 
     },
     {
@@ -349,35 +349,3 @@ export const  Doctors =  [
         "phone_number": "2536978660"
     }
 ]
-
-
-function search_doctors() {
-  // resett result div
-    document.getElementById('result').innerHTML = "";
-
-    // get that input
-    let name_input = document.getElementById('name_input').value;
-    name_input = name_input.toLowerCase();
-    let loc_input = document.getElementById('location_input').value;
-    loc_input = loc_input.toLowerCase();
-    let spec_input = document.getElementById('spec_input').value;
-    spec_input = spec_input.toLowerCase();
-
-
-
-    for (let i = 0; i < Doctors.length; i++) {
-
-      if ((Doctors[i]["first_name"].toLowerCase().includes(name_input) ||
-          Doctors[i]["last_name"].toLowerCase().includes(name_input)) &&
-          Doctors[i]["city"].toLowerCase().includes(loc_input) &&
-          Doctors[i]["speciality"].toLowerCase().includes(spec_input)
-            ) {
-
-              // if search fields met do this ->
-        document.getElementById('result').innerHTML =
-         document.getElementById('result').innerHTML +
-          Doctors[i]["first_name"] + " " + Doctors[i]["last_name"] + " " + Doctors[i]["city"] + " " + Doctors[i]["speciality"] + "<br>";
-      }
-
-    }
-}
